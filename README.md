@@ -1,7 +1,7 @@
 # AirBnB_clone
 0x00. AirBnB clone - The console 
 
-Description of the Project
+Description Of The Project
 
 The AIRBnB Console Project is a command-line tool that simplifies the management of Airbnb property listings. It allows hosts to easily add, update, and remove property information, handle booking requests, and gain insights through data analytics.
 Command Interpreter
