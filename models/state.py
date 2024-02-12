@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module define State class"""
+"""Module define State class inherets from BaseModel"""
 
 from models.base_model import BaseModel
 
