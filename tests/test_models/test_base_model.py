@@ -3,6 +3,7 @@ from models.base_model import BaseModel
 from datetime import datetime
 import json
 
+
 class TestBaseModel(unittest.TestCase):
     def test_attributes(self):
         my_model = BaseModel()
@@ -47,9 +48,9 @@ class TestBaseModel(unittest.TestCase):
         my_model_json = my_model.to_dict()
         json_str = json.dumps(my_model_json)
         expected_json_str = '{"id": "' + my_model.id + '", "__class__": "BaseModel", "created_at": "' + my_model.created_at.isoformat() + '", "updated_at": "' + my_model.updated_at.isoformat() + '", "name": "My First Model", "my_number": 89}'
-        
+
         self.assertEqual(json_str, expected_json_str)
+
 
 if __name__ == '__main__':
     unittest.main()
-
